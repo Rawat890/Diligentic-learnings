@@ -1,3 +1,5 @@
+[ Name is same as component name ]
+
 ✅ PART 1 — Explanation of the First Code (ListCheddaWalletTransactions)
 
 This React Native component displays Chedda Wallet transactions and supports:
