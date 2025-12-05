@@ -29,3 +29,13 @@
   textStyle={{ left: 10 }}
   thirdIcon={null}
 />
+
+
+<AudienceListWithoutDrag
+  isFull={true}
+  audiences={audiences}
+  isSelectedAudience={(ad) => ad._=== selectedAudience._id}
+  onAudienceSelect={thonAudienceSelect}
+  listContainerStyle={{ marginTo10, marginLeft: 6 }}
+  keyBoardPresistsTaps={true}
+/>
